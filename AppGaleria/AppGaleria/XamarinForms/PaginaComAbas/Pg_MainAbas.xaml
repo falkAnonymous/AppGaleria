@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGaleria.XamarinForms.PaginaComAbas.Pg_MainAbas"
+             xmlns:MainAbas="clr-namespace:AppGaleria.XamarinForms.PaginaComAbas"
+            BarBackgroundColor="#5943E8">
+
+    <ContentPage Title="Login / Cadastro">
+        <StackLayout>
+            <Label Text="Login" FontSize="45" TextColor="Purple" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Formulario" IconImageSource="gym_love_low_resolution_logo_color_on_transparent_background.png">
+        <StackLayout>
+            <Label Text="Formulario" FontSize="45" TextColor="Orange" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Match">
+        <StackLayout>
+            <Label Text="I love Match" FontSize="45" TextColor="red" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>

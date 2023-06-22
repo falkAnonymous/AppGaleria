@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGaleria.XamarinForms.PaginaDeNavegacao.Pagina03"
+             NavigationPage.HasBackButton="false"
+             Title="Pagina 03">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button  Text="Inserir Pagina" TextColor="red" CornerRadius="50" Margin="50,0" BackgroundColor="Orange" Clicked="Adicionar_Pagina"/>
+            <Button Text="Remover Pagina" TextColor="White" Margin="50,0" BackgroundColor="Purple" CornerRadius="50" Clicked="Remover_Pagina"/>
+            <Button Text="Pagina Inicial" TextColor="White" Margin="50,0" BackgroundColor="Purple" CornerRadius="50" Clicked="Btn_PaginalInicial"/>
+            <Label Text="Pagina 03"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                   />
+            
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" Margin="100,150">
+                <Label Text="Welcome to the Mato"
+                       FontSize="32"
+                       TextColor="Purple"
+                       BackgroundColor="LightPink"
+                       HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="0,10">
+                <Button  Text="Voltar" TextColor="red" CornerRadius="50" Margin="50,0" BackgroundColor="GreenYellow" Clicked="Voltar"/>
+                <Button Text="Pagina Inicial" TextColor="White" BackgroundColor="Purple" CornerRadius="50" Clicked="BTN_Inicio"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

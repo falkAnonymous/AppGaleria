@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGaleria.XamarinForms.Paginas.Container.Conteudo01xaml">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Margin="0,200" Padding="20">
+            <Label Text="Tabajara" FontSize="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Red" BackgroundColor="#451283"/>
+            <Button
+                Text="Avançar"
+                BorderWidth="50"
+                BorderColor="Black"
+                BackgroundColor="WhiteSmoke"
+                Clicked="Avanca">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

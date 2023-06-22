@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGaleria.XamarinForms.PaginaMenuLateral.PaginaMainMenu"
+            xmlns:PaginaMenuLateral="clr-namespace:AppGaleria.XamarinForms.PaginaMenuLateral"
+            xmlns:Carrossel="clr-namespace:AppGaleria.XamarinForms.PaginaCarrossel">
+    <!--Menu-->
+
+    <!--Esse representa o Master-->
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <Button Text="Pagina 01"/>
+                <Button Text="Pagina 03"/>
+                <Button Text="Pagina 03"/>
+            </StackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+
+
+    <!--Conteudo-->
+
+    <!--Esse e o Datail-->
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <Carrossel:PgCarrossel01/>
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>

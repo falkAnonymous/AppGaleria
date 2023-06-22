@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGaleria.XamarinForms.CarrosselPaginas.Carousel01"
+             xmlns:CarrosselPage="clr-namespace:AppGaleria.XamarinForms.PaginaCarrossel">
+    <CarrosselPage:PgCarrossel01/>
+    <CarrosselPage:PgCarrossel02/>
+    <CarrosselPage:PgCarrossel03/>
+
+
+</CarouselPage>
